@@ -8,10 +8,18 @@ const Navbar = () => {
                 <li>VALUE TOWN</li>
             </ul>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                    <Link to="/">Wall</Link>
+                </li>
+                <li>
+                    <Link to="/charts">Charts</Link>
+                </li>
+                <li>
+                    <Link to="/about">About</Link>
+                </li>
             </ul>
         </div>
-    )
+    );
 }
+
+export default Navbar;
